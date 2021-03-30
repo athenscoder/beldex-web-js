@@ -222,7 +222,7 @@ function New_separatorLayer (context) {
   const layer = document.createElement('div')
   layer.style.width = '100%'
   layer.style.height = '0.5px'
-  layer.style.backgroundColor = '#494749'
+  layer.style.backgroundColor = '#3dc343'
   //
   return layer
 }

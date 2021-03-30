@@ -11,7 +11,7 @@ const JSBigInt = require('@mymonero/mymonero-bigint').BigInteger
 
 const ccySymbolsByCcy = exports.ccySymbolsByCcy =
 {
-  XMR: 'XMR', // included for completeness / convenience / API
+  XMR: 'BDX', // included for completeness / convenience / API
   USD: 'USD',
   AUD: 'AUD',
   BRL: 'BRL',

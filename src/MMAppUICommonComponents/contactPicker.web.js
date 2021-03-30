@@ -381,9 +381,9 @@ function _new_pickedContactLayer (context, contact, didClickCloseBtn_fn) {
     contentLayer.style.textOverflow = 'ellipsis'
     contentLayer.style.backgroundColor = '#383638'
     if (context.Views_selectivelyEnableMobileRenderingOptimizations !== true) {
-      contentLayer.style.boxShadow = '0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #494749'
+      contentLayer.style.boxShadow = '0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #3dc343'
     } else { // avoiding drop shadow
-      contentLayer.style.boxShadow = 'inset 0 0.5px 0 0 #494749'
+      contentLayer.style.boxShadow = 'inset 0 0.5px 0 0 #3dc343'
     }
     contentLayer.style.borderRadius = '3px'
     contentLayer.style.display = 'inline-block'

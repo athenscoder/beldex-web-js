@@ -275,7 +275,7 @@ class SendFundsView extends View {
     const self = this
     const layer = commonComponents_contactPicker_Lite.New_contactPickerLayer_Lite(
       self.context,
-      'Email, domain, or Monero address',
+      'Email, domain, or Beldex address',
       function (event) { // didFinishTypingInInput_fn
         self._didFinishTypingInContactPickerInput(event)
       }
@@ -494,7 +494,7 @@ class SendFundsView extends View {
         selectLayer.style.border = '0'
         selectLayer.style.padding = '0'
         selectLayer.style.borderRadius = '3px'
-        selectLayer.style.boxShadow = '0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #494749'
+        selectLayer.style.boxShadow = '0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #3dc343'
         selectLayer.style.webkitAppearance = 'none' // apparently necessary in order to activate the following style.border…Radius
         selectLayer.style.MozAppearance = 'none'
         selectLayer.style.msAppearance = 'none'
@@ -614,7 +614,7 @@ class SendFundsView extends View {
       layer.style.backgroundColor = '#1D1B1D'
       layer.style.margin = '15px'
       layer.style.width = `calc(100% - ${15 * 2 + 2}px)` // + 2 is for border
-      layer.style.border = '1px dashed #494749'
+      layer.style.border = '1px dashed #3dc343'
       layer.style.borderRadius = '6px'
       view.addSubview(contentView)
     }
@@ -644,7 +644,7 @@ class SendFundsView extends View {
       div.style.fontWeight = '300'
       div.style.webkitFontSmoothing = 'subpixel-antialiased'
       //
-      div.innerHTML = 'Drag and drop a<br/>Monero Request Code '
+      div.innerHTML = 'Drag and drop a<br/>Beldex Request Code '
       self.qrCodeInputs_contentView.layer.appendChild(div)
     }
     self.addSubview(view)
@@ -2061,7 +2061,7 @@ class SendFundsView extends View {
     }
     // ^ so we don't get torn down while dialog open
     self.context.filesystemUI.PresentDialogToOpenOneImageFile(
-      'Open Monero Request',
+      'Open Beldex Request',
       function (err, absoluteFilePath) {
         self.context.userIdleInWindowController.ReEnable_userIdle()
         if (typeof self.context.Cordova_disallowLockDownOnAppPause !== 'undefined') {

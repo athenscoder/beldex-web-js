@@ -107,9 +107,9 @@ function New_1OfN_WalletColorPickerInputView (context, selectHexColorString_orUn
     const hexColorString = hexColorStrings[i]
     const li = document.createElement('li')
     if (context.Views_selectivelyEnableMobileRenderingOptimizations !== true) {
-      li.style.boxShadow = '0 0.5px 1px 0 #161416, inset 0 .5px 0 0 #494749'
+      li.style.boxShadow = '0 0.5px 1px 0 #161416, inset 0 .5px 0 0 #3dc343'
     } else { // avoid shadow
-      li.style.boxShadow = 'inset 0 .5px 0 0 #494749'
+      li.style.boxShadow = 'inset 0 .5px 0 0 #3dc343'
     }
     lis.push(li)
     {

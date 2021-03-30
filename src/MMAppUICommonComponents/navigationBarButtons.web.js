@@ -43,9 +43,9 @@ function New_GreyButtonView (context) {
   const layer = view.layer
   layer.classList.add(commonComponents_hoverableCells.ClassFor_GreyCell())
   if (context.Views_selectivelyEnableMobileRenderingOptimizations !== true) {
-    layer.style.boxShadow = '0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #494749'
+    layer.style.boxShadow = '0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #3dc343'
   } else { // avoiding shadow
-    layer.style.boxShadow = 'inset 0 0.5px 0 0 #494749'
+    layer.style.boxShadow = 'inset 0 0.5px 0 0 #3dc343'
   }
   layer.style.backgroundColor = '#383638'
   layer.style.color = '#FCFBFC'

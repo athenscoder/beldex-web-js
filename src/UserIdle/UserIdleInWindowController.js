@@ -60,6 +60,7 @@ class UserIdleInWindowController extends EventEmitter {
     if (self._numberOfRequestsToLockUserIdleAsDisabled == 1) { // if we're requesting to disable without it already having been disabled, i.e. was 0, now 1
       console.log('⏳  Temporarily disabling the user idle timer.')
       self.__disable_userIdle()
+      console.log("================USER IDLE============================");
     } else {
       console.log('⏳  Requested to temporarily disable user idle but already disabled. Incremented lock.')
     }

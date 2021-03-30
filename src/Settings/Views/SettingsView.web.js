@@ -65,7 +65,7 @@ class SettingsView extends View {
     const div = document.createElement('div')
     div.style.padding = '12px 0 12px 33px'
     const buttonView = commonComponents_tables.New_clickableLinkButtonView(
-      'ABOUT MYMONERO',
+      'ABOUT BELDEX WALLET',
       self.context,
       function () {
         const StackAndModalNavigationView = require('../../StackNavigation/Views/StackAndModalNavigationView.web')
@@ -163,7 +163,7 @@ class SettingsView extends View {
         selectLayer.style.border = '0'
         selectLayer.style.padding = '0'
         selectLayer.style.borderRadius = '3px'
-        selectLayer.style.boxShadow = '0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #494749'
+        selectLayer.style.boxShadow = '0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #3dc343'
         selectLayer.style.webkitAppearance = 'none' // apparently necessary in order to activate the following style.border…Radius
         selectLayer.style.MozAppearance = 'none'
         selectLayer.style.msAppearance = 'none'

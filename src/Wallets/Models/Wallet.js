@@ -18,11 +18,11 @@ const WalletHostPollingController = require('../Controllers/WalletHostPollingCon
 //
 const wallet_currencies =
 {
-  xmr: 'xmr'
+  xmr: 'bdx'
 }
 const humanReadable__wallet_currencies =
 {
-  xmr: 'XMR'
+  xmr: 'BDX'
 }
 //
 // Shared utility functions (these can be factored out)
@@ -709,7 +709,9 @@ class Wallet extends EventEmitter {
         seed_orUndefined || '', // expects string
         self.context.nettype
       )
+      console.log('Ret:', ret)
     } catch (e) {
+      console.log(e);
       return {
         err_str: typeof e === 'string' ? e : '' + e
       }

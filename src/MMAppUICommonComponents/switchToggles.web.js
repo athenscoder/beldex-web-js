@@ -69,7 +69,7 @@ const cssRules =
 		height: ${k_knobHeight}px;
 		width:  ${k_knobWidth}px;
 		background-color: ${k_knobColor}; 
-		box-shadow: 0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #494749;
+		box-shadow: 0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #3dc343;
 		border-radius: 21px;
 		transition: transform ${k_transitionTime}s, background ${k_transitionTime}s;
 	}`,

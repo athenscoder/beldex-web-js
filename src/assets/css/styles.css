@@ -128,7 +128,7 @@ body {
 .action-button.utility {
   color: #fcfbfc;
   background-color: #383638;
-  box-shadow: 0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #494749;
+  box-shadow: 0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #3dc343;
   font-size: 12px;
   letter-spacing: 0.5px;
   font-weight: 400;
@@ -137,7 +137,7 @@ body {
 
 .action-button.action {
   color: #161416;
-  background-color: #00c6ff;
+  background-color: #3dc343;
   box-shadow: inset 0 0.5px 0 0 rgba(255, 255, 255, 0.2);
   font-size: 13px;
   letter-spacing: 0;
@@ -227,7 +227,7 @@ body {
 }
 
 .navigation-blue-button-enabled {
-  background-color: #00c6ff;
+  background-color: #3dc343;
   box-shadow: 0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 rgba(255, 255, 255, 0.2);
   color: #161416;
   font-weight: 600;
@@ -255,7 +255,7 @@ body {
 }
 
 .grey-menu-button {
-  box-shadow: 0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #494749;
+  box-shadow: 0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #3dc343;
   background-color: #383638;
   color: #fcfbfc;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -667,7 +667,7 @@ body {
   }
   40% {
     transform: translateY(0);
-    background-color: #494749;
+    background-color: #3dc343;
   }
 }
 
@@ -842,12 +842,12 @@ div.exchange-button {
 
   transition: background-color 0.1s ease-out, box-shadow 0.1s ease-out;
   background-color: #383638;
-  box-shadow: 0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #494749;
+  box-shadow: 0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #3dc343;
 }
 
 .EmojiPickerControlView > a.active,
 .EmojiPickerControlView > a:hover {
-  background-color: #494749;
+  background-color: #3dc343;
   box-shadow: 0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #5a585a;
 }
 
@@ -886,14 +886,14 @@ div.exchange-button {
   padding: 4px 8px;
   margin: 4px;
   border-radius: 3px;
-  box-shadow: inset 0 0.5px 0 0 #494749, 0 0.5px 1px 0 #161416;
+  box-shadow: inset 0 0.5px 0 0 #3dc343, 0 0.5px 1px 0 #161416;
   transition: all 0.1s ease-out;
   display: inline-block;
 }
 
 .mnemonic-pill:not(.disabled):hover,
 .mnemonic-pill--selectedPlaceholder:not(.disabled):hover {
-  background: #494749;
+  background: #3dc343;
   box-shadow: inset 0 0.5px 0 0 #5a585a, 0 0.5px 1px 0 #161416;
   transition: all 0.1s ease-out;
 }
@@ -967,7 +967,7 @@ div.exchange-button {
 }
 
 .oneOfN-walletColorPicker li input:checked ~ .selectionIndicator {
-  border: 4px solid #00c6ff;
+  border: 4px solid #3dc343;
 }
 
 .oneOfN-walletColorPicker li.disabled input:checked ~ .selectionIndicator {
@@ -1227,14 +1227,14 @@ div.exchange-button {
   height: 8px;
   width: 8px;
   background-color: #333638;
-  box-shadow: 0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #494749;
+  box-shadow: 0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #3dc343;
   border-radius: 21px;
   transition: transform 0.2s, background 0.2s;
 }
 
 .switch input.toggle:checked + label:after {
   transform: translateX(12px);
-  background-color: #00c6ff;
+  background-color: #3dc343;
   box-shadow: inset 0 0 0 0 rgba(255, 255, 255, 0.2);
   transition: transform 0.2s, background 0.2s;
 }
@@ -1269,7 +1269,7 @@ div.exchange-button {
   appearance: none;
   background: #383638;
   border-width: 0;
-  box-shadow: 0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #494749;
+  box-shadow: 0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #3dc343;
   border-radius: 5px;
 
   text-align: left;
@@ -1292,7 +1292,7 @@ div.exchange-button {
 .WalletSelectView > .options_containerView > .background {
   background: #383638;
   border-radius: 5px;
-  box-shadow: 0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #494749;
+  box-shadow: 0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #3dc343;
 }
 
 .WalletSelectView > .options_containerView .optionCell.active {
@@ -1799,7 +1799,7 @@ div#currency-table {
   min-width: 103px;
   font-weight: bold !important;
   float: right;
-  background-color: #00c6ff;
+  background-color: #3dc343;
   box-shadow: 0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 rgba(255, 255, 255, 0.2);
   color: #161416;
   cursor: default;
@@ -2043,7 +2043,7 @@ input#BTCcurrencyInput {
   border-radius: 100%;
   margin-top: 1px; /* minor visual */
 
-  background: #494749;
+  background: #3dc343;
   cursor: pointer;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5), 0 0.5px 1px 0 #161416,
     inset 0 0.5px 0 0 #6b696b;
@@ -2059,7 +2059,7 @@ input#BTCcurrencyInput {
   border-radius: 100%;
   margin-top: 1px; /* minor visual */
 
-  background: #494749;
+  background: #3dc343;
   cursor: pointer;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5), 0 0.5px 1px 0 #161416,
     inset 0 0.5px 0 0 #6b696b;
@@ -2075,7 +2075,7 @@ input#BTCcurrencyInput {
   border-radius: 100%;
   margin-top: 1px; /* minor visual */
 
-  background: #494749;
+  background: #3dc343;
   cursor: pointer;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5), 0 0.5px 1px 0 #161416,
     inset 0 0.5px 0 0 #6b696b;
@@ -2258,7 +2258,7 @@ div.customSelect {}
   appearance: none;
   background: #383638;
   border-width: 0;
-  box-shadow: 0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #494749;
+  box-shadow: 0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #3dc343;
   border-radius: 5px;
 
   text-align: left;
@@ -2277,7 +2277,7 @@ div.customSelect {}
 .WalletSelectView > .options_containerView > .background {
   background: #383638;
   border-radius: 5px;
-  box-shadow: 0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #494749;
+  box-shadow: 0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #3dc343;
 }
 .WalletSelectView > .options_containerView .optionCell.active {
   background-color: rgba(73, 71, 73, 0.95) !important;
@@ -2391,7 +2391,7 @@ div.customSelect {}
   }
   40% {
     transform: translateY(0);
-    background-color: #494749;
+    background-color: #3dc343;
   }
 }
 @keyframes block-animate-on-accent-bg {

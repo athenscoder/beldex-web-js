@@ -34,13 +34,13 @@ function cssRules_generatorFn (context) {
 			padding: 4px 8px;
 			margin: 4px;
 			border-radius: 3px;
-			box-shadow: inset 0 0.5px 0 0 #494749${useMobRendOpts ? '' : ', 0 0.5px 1px 0 #161416'};
+			box-shadow: inset 0 0.5px 0 0 #3dc343${useMobRendOpts ? '' : ', 0 0.5px 1px 0 #161416'};
 			transition: all 0.1s ease-out;
 			display: inline-block;
 		}`,
 		`.mnemonic-pill:not(.disabled):hover,
 		 .mnemonic-pill--selectedPlaceholder:not(.disabled):hover {
-			background: #494749;
+			background: #3dc343;
 			box-shadow: inset 0 0.5px 0 0 #5A585A${useMobRendOpts ? '' : ', 0 0.5px 1px 0 #161416'};
 			transition: all 0.1s ease-out;
 		}`,

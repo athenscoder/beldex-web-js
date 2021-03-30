@@ -57,7 +57,7 @@ class WalletsListView extends ListView {
     {
       const emptyStateMessageContainerView = commonComponents_emptyScreens.New_EmptyStateMessageContainerView(
         '😃',
-        "Welcome to MyMonero!<br/>Let's get started.",
+        "Welcome to Beldex Wallet!<br/>Let's get started.",
         self.context,
         0,
         0
@@ -176,7 +176,7 @@ class WalletsListView extends ListView {
   // Runtime - Accessors - Navigation
   //
   Navigation_Title () {
-    return `<a href="https://mymonero.com" target="_blank" style="text-decoration: none; color: rgb(252, 251, 252); "><span style='width: 30px; height: 20px; display: inline-block; margin-right: 6px;'><span class='title-logo'>&nbsp;</span></span>MyMonero v1.1.19</a>`
+    return `<a href="https://beldex.io" target="_blank" style="text-decoration: none; color: rgb(252, 251, 252); "><span style='width: 30px; height: 20px; display: inline-block; margin-right: 6px;'><span class='title-logo'>&nbsp;</span></span>Beldex Wallet v1.0.0</a>`
   }
 
   Navigation_New_RightBarButtonView () {

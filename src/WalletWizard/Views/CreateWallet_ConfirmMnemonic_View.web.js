@@ -340,6 +340,7 @@ class CreateWallet_ConfirmMnemonic_View extends BaseView_AWalletWizardScreen {
       self.rightBarButtonView.layer.innerHTML = commonComponents_activityIndicators.New_Graphic_ActivityIndicatorLayer_htmlString({ 'margin-top': '3px' })
       self.disable_submitButton()
       self.rightBarButtonView.layer.style.backgroundColor = 'rgba(0,0,0,0)' // special case / slightly fragile
+      console.log("=====================END===========================")
     }
     self.context.walletsListController.WhenBooted_ObtainPW_AddNewlyGeneratedWallet(
       walletInstance,
