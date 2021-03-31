@@ -524,7 +524,7 @@ class ImportTransactionsModalView extends View {
           }
           {
             // const command = `transfer 3 import.mymonero.com ${import_fee__JSBigInt} ${payment_id}`
-            const tooltipText = 'For convenience you may send the fee from MyMonero here, or the official CLI or GUI tools, or any other Monero wallet.<br/><br/>Please be sure to use the exact payment ID below, so the server knows which wallet to import.'
+            const tooltipText = 'For convenience you may send the fee from MyMonero here, or the official CLI or GUI tools, or any other Beldex wallet.<br/><br/>Please be sure to use the exact payment ID below, so the server knows which wallet to import.'
             const view = commonComponents_tooltips.New_TooltipSpawningButtonView(tooltipText, self.context)
             const layer = view.layer
             self.walletSelectLabelLayer.appendChild(layer) // we can append straight to layer as we don't ever change its innerHTML after this

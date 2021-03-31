@@ -90,7 +90,7 @@ class CreateWallet_Instructions_View extends BaseView_AWalletWizardScreen {
     const list = []
     list.push([
       'Creating a wallet',
-      'Each Monero wallet gets a unique word-sequence called a mnemonic.'
+      'Each Beldex wallet gets a unique word-sequence called a mnemonic.'
     ])
     list.push([
       'Write down your mnemonic',

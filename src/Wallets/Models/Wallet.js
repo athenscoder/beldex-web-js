@@ -709,7 +709,6 @@ class Wallet extends EventEmitter {
         seed_orUndefined || '', // expects string
         self.context.nettype
       )
-      console.log('Ret:', ret)
     } catch (e) {
       console.log(e);
       return {
