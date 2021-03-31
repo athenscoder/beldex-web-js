@@ -1191,7 +1191,7 @@ class Wallet extends EventEmitter {
       // critical to do on every exit from this method
       self.context.userIdleInWindowController.ReEnable_userIdle()
     }
-    const statusUpdate_messageBase = isSweepTx ? 'Sending wallet balance…' : `Sending ${raw_amount_string} XMR…`
+    const statusUpdate_messageBase = isSweepTx ? 'Sending wallet balance…' : `Sending ${raw_amount_string} BDX…`
     const processStepMessageSuffix_byEnumVal =
 		{
 		  0: '', // 'none'
