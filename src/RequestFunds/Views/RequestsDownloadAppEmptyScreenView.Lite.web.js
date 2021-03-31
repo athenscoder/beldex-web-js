@@ -32,7 +32,7 @@ class RequestsDownloadAppEmptyScreenView extends View {
   //
   // Runtime - Accessors - Navigation
   Navigation_Title () {
-    return 'Receive Monero'
+    return 'Receive Beldex'
   }
 }
 module.exports = RequestsDownloadAppEmptyScreenView

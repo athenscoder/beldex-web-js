@@ -851,7 +851,7 @@ class SendFundsView extends View {
   // Runtime - Accessors - Navigation
   //
   Navigation_Title () {
-    return 'Send Monero'
+    return 'Send Beldex'
   }
 
   Navigation_New_RightBarButtonView () {
