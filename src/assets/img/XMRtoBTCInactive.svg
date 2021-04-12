@@ -6,8 +6,8 @@
 	.st0{fill:#222222;}
 	.st1{fill:#595959;stroke:#595959;stroke-width:0.25;stroke-miterlimit:10;}
 	.st2{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:6;stroke-miterlimit:10;}
-	.st3{fill:#494749;}
-	.st4{fill:#494749;stroke:#272727;stroke-width:3;stroke-miterlimit:10;}
+	.st3{fill:#3dc343;}
+	.st4{fill:#3dc343;stroke:#272727;stroke-width:3;stroke-miterlimit:10;}
 	.st5{fill:#222222;stroke:#272527;stroke-miterlimit:10;}
 </style>
 <ellipse class="st0" cx="45.4" cy="83" rx="34.3" ry="34.7"/>

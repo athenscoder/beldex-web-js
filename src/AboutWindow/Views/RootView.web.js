@@ -45,7 +45,7 @@ class RootView extends View {
       layer.style.backgroundRepeat = 'no-repeat'
       layer.style.margin = '66px auto 14px auto'
       layer.style.cursor = 'pointer'
-      layer.href = 'https://' + self.context.appDownloadLink_domainAndPath
+      layer.href = 'https://beldex.io'
       layer.addEventListener('click', function (e) {
         e.preventDefault()
         self.context.urlBrowser.OpenURLInSystemBrowser(this.href)
@@ -80,7 +80,7 @@ class RootView extends View {
       layer.style.webkitFontSmoothing = 'subpixel-antialiased'
       layer.style.cursor = 'pointer'
       layer.innerHTML = 'View on GitHub'
-      layer.href = 'https://www.github.com/mymonero/mymonero-app-js/releases/latest'
+      layer.href = 'https://www.github.com/Beldex-Coin'
       layer.addEventListener('mouseenter', function (e) {
         layer.style.textDecoration = 'underline'
       })

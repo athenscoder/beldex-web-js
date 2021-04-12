@@ -84,9 +84,9 @@ function New_ActionButtonView (
       layer.style.color = '#FCFBFC'
       layer.style.backgroundColor = '#383638'
       if (context.Views_selectivelyEnableMobileRenderingOptimizations !== true) {
-        layer.style.boxShadow = '0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #494749'
+        layer.style.boxShadow = '0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #3dc343'
       } else { // avoiding shadow gradient
-        layer.style.boxShadow = 'inset 0 0.5px 0 0 #494749'
+        layer.style.boxShadow = 'inset 0 0.5px 0 0 #3dc343'
       }
       context.themeController.StyleLayer_FontAsMiddlingButtonContentSemiboldSansSerif(
         layer,

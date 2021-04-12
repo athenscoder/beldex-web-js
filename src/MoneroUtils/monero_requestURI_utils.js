@@ -28,8 +28,8 @@
 //
 'use strict'
 //
-const coinSymbol = 'XMR'
-const coinUriPrefix = 'monero:'
+const coinSymbol = 'BDX'
+const coinUriPrefix = 'beldex:'
 //
 const URITypes = {
   addressAsFirstPathComponent: 1,

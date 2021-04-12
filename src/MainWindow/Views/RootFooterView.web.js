@@ -27,22 +27,22 @@ class RootFooterView extends View {
     //
     tr.appendChild(self._new_linkButtonLayerElement('Home', 'rgb(250, 246, 250)', function (e) {
       e.preventDefault()
-      window.open('https://www.mymonero.com/', '_blank') // new tab
+      window.open('https://beldex.io/', '_blank') // new tab
       return false
     }))
     tr.appendChild(self._new_linkButtonLayerElement('Privacy', 'rgb(140, 136, 140)', function (e) {
       e.preventDefault()
-      window.open('https://www.mymonero.com/privacy', '_blank') // new tab
+      window.open('https://www.beldex.io/privacy', '_blank') // new tab
       return false
     }))
     tr.appendChild(self._new_linkButtonLayerElement('Terms', 'rgb(140, 136, 140)', function (e) {
       e.preventDefault()
-      window.open('https://www.mymonero.com/terms', '_blank') // new tab
+      window.open('https://www.beldex.io/terms', '_blank') // new tab
       return false
     }))
     tr.appendChild(self._new_linkButtonLayerElement('Support', '#11bbec', function (e) {
       e.preventDefault()
-      window.open('https://mymonero.com/?open_support=1', '_blank')
+      window.open('https://t.me/official_beldex', '_blank')
       // shift to this when support can be brought directly back in:
       // window.Intercom('show')
       // previous:

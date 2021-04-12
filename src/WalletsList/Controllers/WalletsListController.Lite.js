@@ -5,7 +5,7 @@ const WalletsListController_Base = require('./WalletsListController_Base')
 class WalletsListController extends WalletsListController_Base {
   //
   LiteAppWalletName () {
-    return 'My Monero Wallet'
+    return 'Beldex Wallet'
   }
 
   LiteAppWalletSwatchColor () // possibly change this to random color at some point

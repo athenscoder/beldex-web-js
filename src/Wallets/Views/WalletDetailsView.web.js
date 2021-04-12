@@ -794,9 +794,9 @@ class WalletDetailsView extends View {
     listContainerLayer.style.margin = '16px 0 16px 0'
     listContainerLayer.style.background = '#383638'
     if (self.context.Views_selectivelyEnableMobileRenderingOptimizations !== true) {
-      listContainerLayer.style.boxShadow = '0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #494749'
+      listContainerLayer.style.boxShadow = '0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #3dc343'
     } else { // avoiding shadow
-      listContainerLayer.style.boxShadow = 'inset 0 0.5px 0 0 #494749'
+      listContainerLayer.style.boxShadow = 'inset 0 0.5px 0 0 #3dc343'
     }
     listContainerLayer.style.borderRadius = '5px'
     listContainerLayer.style.overflow = 'hidden' // mask to bounds, for corner radius on cell hover highlight

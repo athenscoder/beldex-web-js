@@ -20,7 +20,7 @@ class RequestsDownloadAppEmptyScreenView extends View {
 
     const emptyStateMessageContainerView = commonComponents_emptyScreens.New_EmptyStateMessageContainerView(
       '👇',
-      "To make Monero Requests,<br/><a href=\"https://mymonero.com\" target=\"_blank\" style='color: #11bbec; cursor: pointer; -webkit-user-select: none; text-decoration: none;'>download the app</a>.",
+      "To make Beldex Requests,<br/><a href=\"https://wallet.beldex.io\" target=\"_blank\" style='color: #11bbec; cursor: pointer; -webkit-user-select: none; text-decoration: none;'>visit wallet website</a>.",
       self.context,
       0,
       0
@@ -32,7 +32,7 @@ class RequestsDownloadAppEmptyScreenView extends View {
   //
   // Runtime - Accessors - Navigation
   Navigation_Title () {
-    return 'Receive Monero'
+    return 'Receive Beldex'
   }
 }
 module.exports = RequestsDownloadAppEmptyScreenView

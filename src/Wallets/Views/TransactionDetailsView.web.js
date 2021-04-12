@@ -41,7 +41,7 @@ class TransactionDetailsView extends View {
       self.layer.appendChild(layer)
     }
     {
-      const layer = commonComponents_tables.New_inlineMessageDialogLayer(self.context, 'Your Monero is on its way.', false)
+      const layer = commonComponents_tables.New_inlineMessageDialogLayer(self.context, 'Your Beldex is on its way.', false)
       layer.style.width = 'calc(100% - 0px)'
       layer.style.marginLeft = '0px'
       self.validationMessageLayer__onItsWay = layer
@@ -63,7 +63,7 @@ class TransactionDetailsView extends View {
     containerLayer.style.margin = '8px 0'
     containerLayer.style.boxSizing = 'border-box'
     containerLayer.style.padding = '0 16px 4px 16px'
-    containerLayer.style.border = '0.5px solid #494749'
+    containerLayer.style.border = '0.5px solid #3dc343'
     containerLayer.style.borderRadius = '5px'
     {
       self._addTableFieldLayer_date()

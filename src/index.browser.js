@@ -8,10 +8,10 @@ window.BootApp = function () { // encased in a function to prevent scope being l
   const app =
   { // implementing some methods to provide same API as electron
     getVersion: function () {
-      return '1.1.19' // TODO: read from config.. don't want to ship package.json with app though
+      return '1.0.0' // TODO: read from config.. don't want to ship package.json with app though
     },
     getName: function () {
-      return 'MyMonero'
+      return 'Beldex Wallet'
     },
     getDeviceManufacturer: function () {
       throw Error('app.getDeviceManufacturer(): Unsupported platform')

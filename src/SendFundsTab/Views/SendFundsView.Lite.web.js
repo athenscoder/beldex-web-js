@@ -173,7 +173,7 @@ class SendFundsView extends View {
     {
       const labelLayer = commonComponents_forms.New_fieldTitle_labelLayer('FROM', self.context)
       {
-        const tooltipText = 'Monero makes transactions<br/>with your "available outputs",<br/>so part of your balance will<br/>be briefly locked and then<br/>returned as change.'
+        const tooltipText = 'Beldex makes transactions<br/>with your "available outputs",<br/>so part of your balance will<br/>be briefly locked and then<br/>returned as change.'
         const view = commonComponents_tooltips.New_TooltipSpawningButtonView(tooltipText, self.context)
         const layer = view.layer
         labelLayer.appendChild(layer) // we can append straight to labelLayer as we don't ever change its innerHTML
@@ -257,7 +257,7 @@ class SendFundsView extends View {
       breakingDiv.appendChild(layer)
     }
     {
-      const tooltipText = 'Based on Monero network<br/>fee estimate (not final).<br/><br/>MyMonero does not charge<br/>a transfer service fee.'
+      const tooltipText = 'Based on Beldex network<br/>fee estimate (not final).<br/><br/>Beldex does not charge<br/>a transfer service fee.'
       const view = commonComponents_tooltips.New_TooltipSpawningButtonView(tooltipText, self.context)
       const layer = view.layer
       breakingDiv.appendChild(layer)
@@ -275,7 +275,7 @@ class SendFundsView extends View {
     const self = this
     const layer = commonComponents_contactPicker_Lite.New_contactPickerLayer_Lite(
       self.context,
-      'Email, domain, or Monero address',
+      'Email, domain, or Beldex address',
       function (event) { // didFinishTypingInInput_fn
         self._didFinishTypingInContactPickerInput(event)
       }
@@ -290,7 +290,7 @@ class SendFundsView extends View {
     const labelLayer = commonComponents_forms.New_fieldTitle_labelLayer('TO', self.context)
     labelLayer.style.marginTop = '17px' // to square with MEMO field on Send Funds
     {
-      const tooltipText = 'Drag &amp; drop QR codes<br/>to auto-fill.<br/><br/>Please double-check<br/>your recipient info as<br/>Monero transfers are<br/>not yet&nbsp;reversible.'
+      const tooltipText = 'Drag &amp; drop QR codes<br/>to auto-fill.<br/><br/>Please double-check<br/>your recipient info as<br/>Beldex transfers are<br/>not yet&nbsp;reversible.'
       const view = commonComponents_tooltips.New_TooltipSpawningButtonView(tooltipText, self.context)
       const layer = view.layer
       labelLayer.appendChild(layer) // we can append straight to labelLayer as we don't ever change its innerHTML
@@ -327,7 +327,7 @@ class SendFundsView extends View {
       div.appendChild(fieldContainerLayer)
       fieldContainerLayer.style.display = 'none' // initial state
       {
-        const labelLayer = commonComponents_forms.New_fieldTitle_labelLayer('MONERO ADDRESS', self.context)
+        const labelLayer = commonComponents_forms.New_fieldTitle_labelLayer('BELDEX ADDRESS', self.context)
         labelLayer.style.marginTop = '12px' // instead of 15
         fieldContainerLayer.appendChild(labelLayer)
         //
@@ -444,7 +444,7 @@ class SendFundsView extends View {
       const labelLayer = commonComponents_forms.New_fieldTitle_labelLayer('PRIORITY', self.context)
       labelLayer.style.marginTop = '4px'
       {
-        const tooltipText = 'You can pay the Monero<br/>network a higher fee to<br/>have your transfers<br/>confirmed faster.'
+        const tooltipText = 'You can pay the Beldex<br/>network a higher fee to<br/>have your transfers<br/>confirmed faster.'
         const view = commonComponents_tooltips.New_TooltipSpawningButtonView(tooltipText, self.context)
         const layer = view.layer
         labelLayer.appendChild(layer) // we can append straight to labelLayer as we don't ever change its innerHTML
@@ -494,7 +494,7 @@ class SendFundsView extends View {
         selectLayer.style.border = '0'
         selectLayer.style.padding = '0'
         selectLayer.style.borderRadius = '3px'
-        selectLayer.style.boxShadow = '0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #494749'
+        selectLayer.style.boxShadow = '0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #3dc343'
         selectLayer.style.webkitAppearance = 'none' // apparently necessary in order to activate the following style.border…Radius
         selectLayer.style.MozAppearance = 'none'
         selectLayer.style.msAppearance = 'none'
@@ -614,7 +614,7 @@ class SendFundsView extends View {
       layer.style.backgroundColor = '#1D1B1D'
       layer.style.margin = '15px'
       layer.style.width = `calc(100% - ${15 * 2 + 2}px)` // + 2 is for border
-      layer.style.border = '1px dashed #494749'
+      layer.style.border = '1px dashed #3dc343'
       layer.style.borderRadius = '6px'
       view.addSubview(contentView)
     }
@@ -644,7 +644,7 @@ class SendFundsView extends View {
       div.style.fontWeight = '300'
       div.style.webkitFontSmoothing = 'subpixel-antialiased'
       //
-      div.innerHTML = 'Drag and drop a<br/>Monero Request Code '
+      div.innerHTML = 'Drag and drop a<br/>Beldex Request Code '
       self.qrCodeInputs_contentView.layer.appendChild(div)
     }
     self.addSubview(view)
@@ -851,7 +851,7 @@ class SendFundsView extends View {
   // Runtime - Accessors - Navigation
   //
   Navigation_Title () {
-    return 'Send Monero'
+    return 'Send Beldex'
   }
 
   Navigation_New_RightBarButtonView () {
@@ -2061,7 +2061,7 @@ class SendFundsView extends View {
     }
     // ^ so we don't get torn down while dialog open
     self.context.filesystemUI.PresentDialogToOpenOneImageFile(
-      'Open Monero Request',
+      'Open Beldex Request',
       function (err, absoluteFilePath) {
         self.context.userIdleInWindowController.ReEnable_userIdle()
         if (typeof self.context.Cordova_disallowLockDownOnAppPause !== 'undefined') {

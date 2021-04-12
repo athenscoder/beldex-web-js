@@ -123,8 +123,8 @@ class FundsRequestQRDisplayView extends View {
           }
           self.context.filesystemUI.PresentDialogToSaveBase64ImageStringAsImageFile(
             imgDataURIString,
-            'Save Monero Request',
-            'Monero request',
+            'Save Beldex Request',
+            'Beldex request',
             function (err) {
               if (err) {
                 const errString = err.message

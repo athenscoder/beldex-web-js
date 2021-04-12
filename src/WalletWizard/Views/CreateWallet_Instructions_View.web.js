@@ -90,7 +90,7 @@ class CreateWallet_Instructions_View extends BaseView_AWalletWizardScreen {
     const list = []
     list.push([
       'Creating a wallet',
-      'Each Monero wallet gets a unique word-sequence called a mnemonic.'
+      'Each Beldex wallet gets a unique word-sequence called a mnemonic.'
     ])
     list.push([
       'Write down your mnemonic',
@@ -107,7 +107,7 @@ class CreateWallet_Instructions_View extends BaseView_AWalletWizardScreen {
     if (self.context.isLiteApp == true) {
       list.push([
         'Web browsers are insecure',
-        "The convenience of MyMonero for web comes at a security cost. <a href='https://mymonero.com' target='_blank' style='color: #11bbec; cursor: pointer; -webkit-user-select: none; text-decoration: none;'>Download the desktop or mobile app</a>."
+        "The convenience of Beldex Wallet for web comes at a security cost. <a href='https://beldex.io' target='_blank' style='color: #11bbec; cursor: pointer; -webkit-user-select: none; text-decoration: none;'>Download the desktop or mobile app</a>."
       ])
     }
     return list
@@ -139,9 +139,9 @@ class CreateWallet_Instructions_View extends BaseView_AWalletWizardScreen {
       layer.style.color = '#f8f7f8'
       layer.style.background = '#383638'
       if (self.context.Views_selectivelyEnableMobileRenderingOptimizations !== true) {
-        layer.style.boxShadow = '0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #494749'
+        layer.style.boxShadow = '0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #3dc343'
       } else { // avoiding shadow
-        layer.style.boxShadow = 'inset 0 0.5px 0 0 #494749'
+        layer.style.boxShadow = 'inset 0 0.5px 0 0 #3dc343'
       }
       layer.style.borderRadius = '3px'
     }

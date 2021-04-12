@@ -79,7 +79,7 @@ class CreateWallet_InformOfMnemonic_View extends BaseView_AWalletWizardScreen {
       layer.style.webkitFontSmoothing = 'subpixel-antialiased'
       layer.style.wordBreak = 'break-word'
       layer.style.color = '#F5E67E'
-      const text = 'NOTE: This is the only way to access your wallet if you switch devices, use another Monero wallet app, or lose your&nbsp;data.'
+      const text = 'NOTE: This is the only way to access your wallet if you switch devices, use another Beldex wallet app, or lose your&nbsp;data.'
       layer.innerHTML = text
       self.layer.appendChild(layer)
     }
@@ -136,7 +136,7 @@ class CreateWallet_InformOfMnemonic_View extends BaseView_AWalletWizardScreen {
         selectLayer.style.border = '0'
         selectLayer.style.padding = '0'
         selectLayer.style.borderRadius = '3px'
-        selectLayer.style.boxShadow = '0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #494749'
+        selectLayer.style.boxShadow = '0 0.5px 1px 0 #161416, inset 0 0.5px 0 0 #3dc343'
         selectLayer.style.webkitAppearance = 'none' // apparently necessary in order to activate the following style.border…Radius
         selectLayer.style.MozAppearance = 'none'
         selectLayer.style.msAppearance = 'none'

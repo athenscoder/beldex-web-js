@@ -6,7 +6,7 @@ const SendTabContentView = require('../../SendFundsTab/Views/SendTabContentView.
 const RequestTabContentView = require('../../RequestFunds/Views/RequestTabContentView.Lite.web')
 const ContactsTabContentView = require('../../Contacts/Views/ContactsTabContentView.Lite.web')
 const SettingsTabContentView = require('../../Settings/Views/SettingsTabContentView.web')
-const ExchangeTabContentView = require('../../Exchange/Views/ExchangeTabContentView.web')
+//const ExchangeTabContentView = require('../../Exchange/Views/ExchangeTabContentView.web')
 
 class RootTabBarAndContentView extends TabBarAndContentView {
   setup () { // ^ called automatically by super, so
@@ -67,7 +67,7 @@ class RootTabBarAndContentView extends TabBarAndContentView {
     self.requestTabContentView = new RequestTabContentView({}, context)
     self.contactsTabContentView = new ContactsTabContentView({}, context)
     self.settingsTabContentView = new SettingsTabContentView({}, context)
-    self.exchangeTabContentView = new ExchangeTabContentView({}, context)
+    //self.exchangeTabContentView = new ExchangeTabContentView({}, context)
 
     self.SetTabBarContentViews(
       [
@@ -76,7 +76,7 @@ class RootTabBarAndContentView extends TabBarAndContentView {
         self.requestTabContentView,
         self.contactsTabContentView,
         self.settingsTabContentView,
-        self.exchangeTabContentView
+        //self.exchangeTabContentView
       ]
     )
   }

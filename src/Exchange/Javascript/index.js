@@ -2,7 +2,7 @@ const axios = require('axios')
 // const fetch = require("fetch");
 class ExchangeFunctions {
   constructor () {
-    this.apiUrl = 'https://api.mymonero.com:8443/cx'
+    this.apiUrl = 'https://walapi.beldex.io/cx'
     // this.apiVersion = "v3";
     // this.currencyToExchange = "xmr2btc";
     this.offer = {}

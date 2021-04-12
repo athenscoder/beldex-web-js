@@ -70,11 +70,11 @@ function cssRules_generatorFn (context) {
 			
 			transition: background-color 0.1s ease-out, box-shadow 0.1s ease-out;
 			background-color: #383638;
-			box-shadow: ${useMobRendOpts ? '' : '0 0.5px 1px 0 #161416, '}inset 0 0.5px 0 0 #494749;
+			box-shadow: ${useMobRendOpts ? '' : '0 0.5px 1px 0 #161416, '}inset 0 0.5px 0 0 #3dc343;
 		}`,
 		`.${NamespaceName} > a.active,
 		 .${NamespaceName} > a:hover {
-			 background-color: #494749;
+			 background-color: #3dc343;
 			 box-shadow: ${useMobRendOpts ? '' : '0 0.5px 1px 0 #161416, '}inset 0 0.5px 0 0 #5A585A;
 		}`,
 		`.${NamespaceName} > a .emojione {
