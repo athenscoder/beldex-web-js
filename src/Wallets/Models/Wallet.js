@@ -767,7 +767,7 @@ class Wallet extends EventEmitter {
           } else {
             // not returning here allows us to continue with the above-set login info to call
             // 'saveToDisk(…)' when this call to log in is coming from a wallet
-            // reboot. reason is that we expect all such wallets to be valid monero
+            // reboot. reason is that we expect all such wallets to be valid beldex
             // wallets if they are able to have been rebooted.
           }
         }
@@ -1210,7 +1210,7 @@ class Wallet extends EventEmitter {
 		  3: 'This wallet must first be imported.',
 		  4: 'Please specify the recipient of this transfer.',
 		  5: "Couldn't resolve this OpenAlias address.",
-		  6: "Couldn't validate destination Monero address.",
+		  6: "Couldn't validate destination Beldex address.",
 		  7: 'Please enter a valid payment ID.',
 		  8: "Couldn't construct integrated address with short payment ID.",
 		  9: "The amount you've entered is too low.",
