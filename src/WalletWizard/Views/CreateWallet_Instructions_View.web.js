@@ -93,14 +93,14 @@ class CreateWallet_Instructions_View extends BaseView_AWalletWizardScreen {
       'Each Beldex wallet gets a unique word-sequence called a mnemonic.'
     ])
     list.push([
-      'Write down your mnemonic',
+      'Write down your mnemonic1',
       "It's the only way to regain access, and <span style='text-decoration: underline;'>it's never sent to the server!</span>"
     ])
     list.push([
       'Keep it secret and safe',
       'If you save it to an insecure location, copy, screenshot, or email it, it may be viewable by other apps.'
     ])
-    list.push([
+    list.push([ 
       'Use it like an actual wallet',
       'For large amounts and better privacy, make a cold-storage wallet or set your own server in Preferences.'
     ])

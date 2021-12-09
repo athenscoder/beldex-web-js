@@ -56,8 +56,8 @@ class WalletsListView extends ListView {
     layer.style.height = `calc(100% - ${marginTop}px)`
     {
       const emptyStateMessageContainerView = commonComponents_emptyScreens.New_EmptyStateMessageContainerView(
-        '😃',
-        "Welcome to Beldex Wallet!<br/>Let's get started.",
+        '',
+        "Post POS, from height 742421, web wallets will be deprecated or will be unavailable. </br>Please make sure to take a backup of your Mnemonic seed, private keys and wallet address </br> to restore them on the Electron Desktop Wallets or Android wallet.",
         self.context,
         0,
         0

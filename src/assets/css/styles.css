@@ -2165,12 +2165,17 @@ input#BTCcurrencyInput {
 }
 
 .emptyScreens .content-container .message-label {
-  margin: 0 0 0 0;
-  width: 100%;
-  height: auto;
-  line-height: 19px;
-  color: #9e9c9e;
-  text-align: center;
+  width: 60%;
+    margin: 0 auto;
+    height: auto;
+    line-height: 25px;
+    color: #ff9800;
+    text-align: center;
+    font-size: 15px !important;
+    background: #272527;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid;
 }
 
 .emptyScreens .content-container .emoji-label {
